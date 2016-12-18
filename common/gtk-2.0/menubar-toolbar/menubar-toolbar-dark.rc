@@ -1,11 +1,11 @@
 style "menubar" {
 
-  bg[NORMAL] = "#2f343f"
-  fg[NORMAL] = "#afb8c5"
-  fg[PRELIGHT] = "#afb8c5"
-  fg[ACTIVE] = "#afb8c5"
+  bg[NORMAL] = "#262626"
+  fg[NORMAL] = "#777777"
+  fg[PRELIGHT] = "#777777"
+  fg[ACTIVE] = "#777777"
   fg[SELECTED] = @selected_fg_color
-  fg[INSENSITIVE] = shade(0.7, "#afb8c5")
+  fg[INSENSITIVE] = shade(0.7, "#777777")
 
   xthickness = 0
   ythickness = 0
@@ -23,10 +23,10 @@ style "menubar" {
 
 style "menubar-borderless" {
 
-  bg[NORMAL] = "#2f343f"
-  fg[NORMAL] = "#afb8c5"
+  bg[NORMAL] = "#262626"
+  fg[NORMAL] = "#777777"
   fg[SELECTED] = @selected_fg_color
-  fg[INSENSITIVE] = shade(0.7, "#afb8c5")
+  fg[INSENSITIVE] = shade(0.7, "#777777")
 
   xthickness = 0
   ythickness = 0
@@ -72,15 +72,15 @@ style "menubar-text" {
 
 
 style "toolbar_text" {
-  fg[NORMAL] = "#afb8c5"
-  fg[PRELIGHT] = "#afb8c5"
-  fg[INSENSITIVE] = shade(0.7, "#afb8c5")
-  fg[ACTIVE] = "#afb8c5"
+  fg[NORMAL] = "#777777"
+  fg[PRELIGHT] = "#777777"
+  fg[INSENSITIVE] = shade(0.7, "#777777")
+  fg[ACTIVE] = "#777777"
 
-  text[NORMAL] = "#afb8c5"
-  text[PRELIGHT] = "#afb8c5"
-  text[INSENSITIVE] = shade(0.7, "#afb8c5")
-  text[ACTIVE] = "#afb8c5"
+  text[NORMAL] = "#777777"
+  text[PRELIGHT] = "#777777"
+  text[INSENSITIVE] = shade(0.7, "#777777")
+  text[ACTIVE] = "#777777"
 
 }
 
@@ -127,11 +127,11 @@ style "toolbar_button" {
 
 style "toolbar_entry" {
 
-  base[NORMAL] = "#404552"
-  base[ACTIVE] = "#404552"
+  base[NORMAL] = "#303030"
+  base[ACTIVE] = "#303030"
   base[INSENSITIVE] = "#39404d"
 
-  text[NORMAL] = "#afb8c5"
+  text[NORMAL] = "#777777"
 
   engine "pixmap" {
 
@@ -187,8 +187,8 @@ style "toolbar_entry" {
 #Chromium
 style "chrome-gtk-frame" {
 
-  ChromeGtkFrame::frame-color = "#2f343f"
-  ChromeGtkFrame::inactive-frame-color = "#2f343f"
+  ChromeGtkFrame::frame-color = "#262626"
+  ChromeGtkFrame::inactive-frame-color = "#262626"
 
   ChromeGtkFrame::frame-gradient-size = 0
   ChromeGtkFrame::frame-gradient-color = shade(0.5, @bg_color)
