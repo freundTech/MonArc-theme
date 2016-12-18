@@ -59,14 +59,14 @@ A_GTK2_TOOLBAR_DARK="afb8c5"
 
 # Monocrome colors
 ## Common
-S_YELLOW="b58900"
-S_ORANGE="cb4b16"
-S_RED="dc322f"
-S_MAGENTA="d33682"
-S_VIOLET="6c71c4"
-S_BLUE="268bd2"
-S_CYAN="2aa198"
-S_GREEN="859900"
+S_YELLOW="9e9e9e"
+S_ORANGE="777777"
+S_RED="777777"
+S_MAGENTA="777777"
+S_VIOLET="777777"
+S_BLUE="848484"
+S_CYAN="919191"
+S_GREEN="919191"
 ## Dark
 S_BASE03="262626"
 S_BASE02="303030"
@@ -79,7 +79,7 @@ S_BASE3="F6F6F6"
 
 FILETYPES=('scss' 'svg' 'xpm' 'xml' 'rc')
 ARC_COLORS=(      "$A_BASE"   "$A_TEXT"   "$A_BG"     "$A_FG"     "$A_SELECTED_FG" "$A_SELECTED_BG" "$A_WARNING" "$A_ERROR" "$A_SUCCESS" "$A_DESTRUCTIVE" "$A_SUGGESTED" "$A_DROP_TARGET" "$A_WM_BUTTON_CLOSE_BG" "$A_WM_BUTTON_CLOSE_HOVER_BG" "$A_WM_BUTTON_CLOSE_ACTIVE_BG" "$A_WM_ICON_CLOSE_BG" "$A_WM_BUTTON_HOVER_BG" "$A_WM_BUTTON_ACTIVE_BG" "$A_WM_BUTTON_HOVER_BORDER" "$A_WM_ICON_BG" "$A_WM_ICON_UNFOCUSED_BG" "$A_WM_ICON_HOVER_BG" "$A_WM_ICON_ACTIVE_BG" "$A_WINDOW_BG" "$A_DARK_SIDEBAR_FG" "$A_ENTRY_BORDER" "$A_BLUE" "$A_WHITE" "$A_GREY"  "$A_DARK"   "$A_DARKEST" "$A_DARKEST2" "$A_DARK_BUTTON" "$A_LIGHT_BUTTON" "$A_OTHER_LIGHT_BUTTON" "$A_MODAL"  "$A_ASSET_DARK" "$A_ASSET_DARK2" "$A_ASSET_GREY" "$A_ASSET_BORDER" "$A_ASSET_LIGHTER_BG" "$A_ASSET_VARIOUS_DARK1" "$A_ASSET_VARIOUS_DARK2" "$A_ASSET_VARIOUS_DARK3" "$A_GNOME_PANEL_BG" "$A_GNOME_PANEL_BORDER" "$A_GTK2_TOOLBAR" "$A_GTK2_TOOLBAR_DARK")
-SOLARIZED_COLORS=("$S_BASE02" "$S_BASE00" "$S_BASE03" "$S_BASE00" "$S_BASE3"       "$S_BLUE"        "$S_ORANGE"  "$S_RED"   "$S_GREEN"   "$S_RED"          "$S_CYAN"     "$S_YELLOW"      "$S_RED"                "$S_ORANGE"                   "$S_RED"                       "$S_BASE03"           "$S_BASE00"             "$S_BLUE"                "$S_BASE03"                 "$S_BASE1"      "$S_BASE00"               "$S_BASE1"            "$S_BASE3"             "$S_BASE02"    "$S_BASE00"          "$S_BASE00"       "$S_BLUE" "$S_BASE3" "$S_BASE2" "$S_BASE03" "$S_BASE03"  "$S_BASE03"   "$S_BASE03"      "$S_BASE02"       "$S_BASE02"             "$S_BASE03" "$S_BASE03"     "$S_BASE02"      "$S_BASE00"     "$S_BASE00"       "$S_BASE02"           "$S_BASE00"              "$S_BASE03"              "$S_BASE03"              "$S_BASE03"         "$S_BASE03"             "$S_BASE0"        "$S_BASE00"           )
+MONOCHROME_COLORS=("$S_BASE02" "$S_BASE00" "$S_BASE03" "$S_BASE00" "$S_BASE3"       "$S_BLUE"        "$S_ORANGE"  "$S_RED"   "$S_GREEN"   "$S_RED"          "$S_CYAN"     "$S_YELLOW"      "$S_RED"                "$S_ORANGE"                   "$S_RED"                       "$S_BASE03"           "$S_BASE00"             "$S_BLUE"                "$S_BASE03"                 "$S_BASE1"      "$S_BASE00"               "$S_BASE1"            "$S_BASE3"             "$S_BASE02"    "$S_BASE00"          "$S_BASE00"       "$S_BLUE" "$S_BASE3" "$S_BASE2" "$S_BASE03" "$S_BASE03"  "$S_BASE03"   "$S_BASE03"      "$S_BASE02"       "$S_BASE02"             "$S_BASE03" "$S_BASE03"     "$S_BASE02"      "$S_BASE00"     "$S_BASE00"       "$S_BASE02"           "$S_BASE00"              "$S_BASE03"              "$S_BASE03"              "$S_BASE03"         "$S_BASE03"             "$S_BASE0"        "$S_BASE00"           )
 
 CWD=`pwd`
 
