@@ -3,6 +3,8 @@
 # Based on solarize.sh by apheleia 
 # (https://github.com/apheleia/solarc-theme/blob/master/solarize.sh)
 
+set -euo pipefail
+
 # Arc colors
 ## SCSS
 A_BASE="404552"
@@ -62,8 +64,8 @@ A_GTK2_TOOLBAR_DARK="afb8c5"
 M_BASE="454545"
 
 FILETYPES=('scss' 'svg' 'xpm' 'xml' 'rc')
-ARC_COLORS=(      "A_BASE")
-MONOCROME_COLORS=("M_BASE")
+ARC_COLORS=(       "$A_BASE")
+MONOCHROME_COLORS=("$M_BASE")
 CWD=`pwd`
 
 echo "### Replacing arc colors with monochrome colors"
@@ -83,7 +85,7 @@ done
 
 echo ""
 echo "### Regenerating assets"
-ASSET_FOLDERS=("gtk-2.0" "gtk-3.0/3.14" "gtk-3.0/3.16" "gtk-3.0/3.18" "gtk-3.0/3.20")
+ASSET_FOLDERS=("gtk-2.0" "gtk-3.0/3.20") #"gtk-3.0/3.14" "gtk-3.0/3.16" "gtk-3.0/3.18" "gtk-3.0/3.20")
 echo "## Deleting old assets"
 cd "${CWD}"
 for folder in "${ASSET_FOLDERS[@]}"
