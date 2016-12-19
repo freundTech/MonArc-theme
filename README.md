@@ -3,9 +3,6 @@ MonArc is a monochrome flat theme with transparent elements for GTK 3, GTK 2 and
 
 MonArc is a fork of the Arc theme: https://github.com/horst3180/arc-theme
 
-## Important:
-Run monochromize.sh before installing the theme or use the `compiled` branch instead. The master branch isn't monochromized to make updating easier
-
 ## Requirements
 * Gnome/GTK3 3.14 - 3.22
 * The `gnome-themes-standard` package
